@@ -5,6 +5,14 @@
 
 using namespace std;
 
+/**
+ * a pivot is a maximum in the subarray from the right, 
+ * and a minimum in the subarray from the left. simply
+ * check what numbers are a max in their sybarray from the right,
+ * then what numbers are the min in their subarray from the left.
+ * the union of these two sets will be a pivot.
+ */
+
 vector<long long> arr;
 
 void readInput(int n) {
